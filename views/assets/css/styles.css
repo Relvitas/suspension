@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    height: 100vh;
+}
+
+.contenedor_tabla_proyectos,
+.contenedor_tabla_pagos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.tabla_proyectos,
+.tabla_pagos {
+    background-color: #F4F6F7;
+    border-radius: 20px;
+    padding: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow: auto;
+}
+
+.tabla_pagos {
+    padding: 10px;
+}
+
+.button_back_pagos {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.button_back_pagos > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #FBAB7E;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.contenedor_form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #F4F6F7;
+}
+
+.title_form {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.input_form {
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+.container_button_form {
+    padding: 10px;
+    text-align: center;
+}
+
+.button_form {
+    font-weight: bold;
+    color: #F4F6F7;
+    background-color: rgb(226, 130, 86);
+    padding: 7px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.fa-stopwatch {
+    color: #F7CE68;
+}
+
+.pagos {
+    color: teal;
+    text-decoration: none;
+}
+
+.fila_encabezado_pagos > th {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    min-width: 100px;
+}
+
+.container_button_back > a {
+    text-decoration: none;
+    color:  rgb(226, 130, 86);
+}
+
+.tabla_proyectos > table,
+.tabla_pagos > table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.fila_encabezado,
+.fila_encabezado_pagos {
+    border-bottom: 2px solid rgb(96, 92, 92);
+}
+
+.fila_registro_pagos {
+    border-bottom: 1px solid rgb(96, 92, 92);
+}
+
+.fila_registro_pagos > td  {
+    padding: 10px;
+}
+
+.fila_encabezado > th {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.fila_encabezado > th:nth-child(n+2):nth-child(-n+4) {
+    min-width: 135px;
+}
+
+.fila_encabezado > th:nth-child(n+6):nth-child(-n+8) {
+    min-width: 135px;
+}
+
+.fila_encabezado > th:nth-child(5) {
+    min-width: 150px;
+}
+
+.fila_cuerpo > td{
+    padding: 10px;
+}
+
+
+
